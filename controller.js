@@ -24,7 +24,6 @@ class oauth2Controller extends baseController {
       if (!oauthstate) {
         return (ctx.body = yapi.commons.resReturn(null, 400, 'state不能为空'));
       }
-      // let ops = yapi.findPluginOptions('aadsso');
       let ops = yapi.WEBCONFIG.plugins[0].options;
       // 通过code获取token
       let data = querystring.stringify({

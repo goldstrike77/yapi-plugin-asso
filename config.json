@@ -11,7 +11,7 @@
    },
    "closeRegister": true,
    "plugins": [{
-       "name": "aadsso",
+       "name": "asso",
        "options": {
          "type": "oauth2",
          "hostscheme": "https",

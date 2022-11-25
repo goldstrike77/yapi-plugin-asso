@@ -4,7 +4,7 @@ Yapi第三方插件，Microsoft Azure Active Directory 基于oauth2协议登录�
 
 ```yaml
 "plugins": [{
-    "name": "aadsso",
+    "name": "asso",
     "options": {
       "type": "oauth2",
       "hostscheme": "https",

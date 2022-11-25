@@ -1,0 +1,28 @@
+{
+  "name": "yapi-plugin-asso",
+  "version": "0.0.1",
+  "description": "Azure Active Directory modules for Yapi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldstrike77/yapi-plugin-asso.git"
+  },
+  "keywords": [
+    "yapi",
+    "aad"
+  ],
+  "author": "suzhetao@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldstrike77/yapi-plugin-asso/issues"
+  },
+  "homepage": "https://github.com/goldstrike77/yapi-plugin-asso#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "jwt-decode": "3.1.2"
+  }
+}

@@ -1,0 +1,33 @@
+{
+   "port": 3000,
+   "adminAccount": "admin@admin.com",
+   "db": {
+     "servername": "mongodb",
+     "DATABASE": "yapi",
+     "port": 27017,
+     "user": "yapi",
+     "pass": "password",
+     "authSource": "yapi"
+   },
+   "closeRegister": true,
+   "plugins": [{
+       "name": "aadsso",
+       "options": {
+         "type": "oauth2",
+         "hostscheme": "https",
+         "hostname": "login.partner.microsoftonline.cn",
+         "authPath": "/8209af61-7dcc-42b8-8cdf-xxxxxxxxxxxx/oauth2/v2.0/authorize",
+         "tokenPath": "/8209af61-7dcc-42b8-8cdf-xxxxxxxxxxxx/oauth2/v2.0/token",
+         "redirectUri": "https://yapi.example.com/api/plugin/oauth2/callback",
+         "appId": "d4b1f920-ecf9-4386-adbc-xxxxxxxxxxxx",
+         "appSecret": "ffl3k8E~.s7VsXgXT-l3I5Xt_xxxxxxxxx"
+       }
+     }
+   ],
+   "adminPassword": "password",
+   "npmRegistry": "https://registry.npm.taobao.org",
+   "mail": {
+     "enable": false,
+     "auth": {}
+   }
+ }
